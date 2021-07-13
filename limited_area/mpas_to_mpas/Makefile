@@ -1,6 +1,6 @@
 .SUFFIXES: .cpp .c .o
 
-OBJS = main.o timer_newer.o RemapperBase.o RemapperCell.o RemapperEdge.o NCFieldBase.o mpas_utils.o interp_utils.o
+OBJS = main.o timer_newer.o RemapperBase.o RemapperCell.o RemapperEdge.o NCFieldBase.o Dictionary.o Queue.o mpas_utils.o interp_utils.o
 
 CXX = g++ -std=c++11 -fopenmp
 CXXFLAGS = -I${NETCDF}/include -g
